@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "strict": true,
+    "lib": ["ESNext", "dom"],
+    "types": ["node", "chrome", "jest"],
+    "preserveConstEnums": true,
+    "noEmit": true,
+    "sourceMap": true,
+    "module":"ESNext",
+    "moduleResolution":"node",
+    "esModuleInterop": true, 
+    "skipLibCheck": true,
+    "importHelpers": true,
+    "forceConsistentCasingInFileNames": true, 
+    "isolatedModules": false,
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["*"]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "__tests__/*.test.ts",
+    "__tests__/*.spec.ts"
+  ]
+}
+
+
