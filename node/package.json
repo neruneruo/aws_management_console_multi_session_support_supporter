@@ -1,0 +1,43 @@
+{
+  "name": "aws_management_console_multi_session_support_supporter",
+  "description": "Support extension for increased visibility with multi-session support in the AWS Management Console.",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "clean": "rimraf ../dist",
+    "lint": "eslint ./.eslintrc.js src/*.ts",
+    "test": "jest --config=.jestrc.cjs",
+    "build": "node ./.esbuildrc.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git-codecommit.ap-northeast-1.amazonaws.com/v1/repos/r-kubota-ts-lambda-example"
+  },
+  "moduleDirectories": [
+    "node_modules",
+    "src"
+  ],
+  "keywords": [],
+  "author": "neruneruo",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chrome": "^0.0.300",
+    "@types/jest": "^29.5.1",
+    "@types/node": "^16.18.26",
+    "@typescript-eslint/eslint-plugin": "^5.41.0",
+    "@typescript-eslint/parser": "^5.41.0",
+    "esbuild": "^0.17.18",
+    "esbuild-plugin-copy": "^2.1.1",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-jest": "^26.1.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^29.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  }
+}

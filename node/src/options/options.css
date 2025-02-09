@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.option input[type="text"],
+.option select {
+  margin-right: 10px;
+  padding: 5px;
+  font-size: 14px;
+}
+
+select option.yellow,
+select.yellow {
+  background-color: #F4B400;
+  color: black;
+}
+
+select option.blue,
+select.blue {
+  background-color: #4285F4;
+  color: white;
+}
+
+select option.green,
+select.green {
+  background-color: #0F9D58;
+  color: white;
+}
+
+select option.pink,
+select.pink {
+  background-color: #FF8AB6;
+  color: black;
+}
+
+select option.purple,
+select.purple {
+  background-color: #9C27B0;
+  color: white;
+}
+
+select option.cyan,
+select.cyan {
+  background-color: #00ACC1;
+  color: white;
+}
+
+select option.red,
+select.red {
+  background-color: #DB4437;
+  color: white;
+}
+
+select option.grey,
+select.grey {
+  background-color: #9E9E9E;
+  color: black;
+}
+
+.delete-btn {
+  cursor: pointer;
+  color: #bbbbbb;
+  /* 濃い目の灰色 */
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid #bbbbbb;
+  /* □で囲むための境界線 */
+  padding: 2px 5px;
+  /* 適度な余白 */
+  margin-left: 10px;
+  /* 他の要素との隙間 */
+}
+
+dialog {
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+/* ダイアログ内のボタンのスタイル */
+#popupClose {
+  margin-top: 10px;
+  padding: 5px 10px;
+}

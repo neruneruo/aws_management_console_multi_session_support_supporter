@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "AWS Management Console Multi Session Support Supporter",
+  "description": "Support extension for increased visibility with multi-session support in the AWS Management Console.",
+  "version": "1.0",
+  "permissions": [
+    "storage",
+    "tabGroups",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "index.js"
+  },
+  "options_ui": {
+    "page": "options/options.html",
+    "open_in_tab": false
+  }
+}
